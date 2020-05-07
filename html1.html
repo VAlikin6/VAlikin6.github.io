@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>Автопедия,все о авто</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background: #F5F5DC;
+        }
+
+        h4 {
+            font-family: Franklin Gothic;
+            Medium sans-serif;
+            /* Рубленый шрифт заголовка */
+        }
+
+        .btn {
+            display: inline-block;
+            /* Строчно-блочный элемент */
+            background: #FF0000;
+            /* Серый цвет фона */
+            color: #fff;
+            /* Белый цвет текста */
+            padding: 1rem 1.5rem;
+            /* Поля вокруг текста */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            border-radius: 3px;
+            /* Скругляем уголки */
+        }
+
+        .btn1 {
+            display: inline-block;
+            /* Строчно-блочный элемент */
+            background: #FFD700;
+            /* Серый цвет фона */
+            color: #fff;
+            /* Белый цвет текста */
+            padding: 1rem 1.5rem;
+            /* Поля вокруг текста */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            border-radius: 3px;
+            /* Скругляем уголки */
+        }
+
+        .btn2 {
+            display: inline-block;
+            /* Строчно-блочный элемент */
+            background: #32CD32;
+            /* Серый цвет фона */
+            color: #fff;
+            /* Белый цвет текста */
+            padding: 1rem 1.5rem;
+            /* Поля вокруг текста */
+            text-decoration: none;
+            /* Убираем подчёркивание */
+            border-radius: 3px;
+            /* Скругляем уголки */
+        }
+
+        #footer {
+            position: fixed;
+            /* Фиксированное положение */
+            left: 0;
+            bottom: 0;
+            /* Левый нижний угол */
+            padding: 10px;
+            /* Поля вокруг текста */
+            background: #39b54a;
+            /* Цвет фона */
+            color: #fff;
+            /* Цвет текста */
+            width: 100%;
+            /* Ширина слоя */
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <a class="navbar-brand" href="#">Главная</a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">О авто</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">О моторах</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Рядные</a>
+                    <a class="dropdown-item" href="#">V-образные</a>
+                    <a class="dropdown-item" href="#">Оппозитные</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h4 align="center">
+            На этом сайте вы сможете найти всё об автомобилях и их двигателях.
+        </h4>
+        <p>Информацию о любых авто и моторах вы найдёте на этом сайте, здесь будет публиковаться информация с разных автомобильных сайтов таких как:
+            <br><br><a href="https://www.drive2.ru/" class="btn">Drive2.ru</a>
+            <a href="https://ru.wikipedia.org" class="btn1">Wikipedia</a>
+            <a href="https://auto.vercity.ru" class="btn2">AutoVercity</a>
+            <br>И конечно с помощью вашей информации, которую вы сможете скидывать в Соц.Сети
+        </p>
+        <div id="footer">
+            &copy; Малчак Валентин
+            <a href="#"
+   onclick="this.href='http://www.facebook.com/share.php?u='+window.location.href+window.location.hash">
+   <img src="http://s1.iconbird.com/ico/2013/6/271/w513h5131371296104Facebook.png" width="35" height="35"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
